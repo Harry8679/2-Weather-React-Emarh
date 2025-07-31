@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './WeatherApp.css';
 
-const API_KEY = 'TA_CLE_API'; // Remplace par ta clé OpenWeatherMap
+const API_KEY = '51253f9dc2b503e4582c22828c3ad670'; // Remplace par ta clé OpenWeatherMap
 
 const WeatherApp = () => {
   const [city, setCity] = useState('');
