@@ -1,0 +1,73 @@
+/* Couleurs selon la température */
+.app.cold {
+  background: linear-gradient(to bottom, #6dd5fa, #2980b9);
+}
+
+.app.mild {
+  background: linear-gradient(to bottom, #fceabb, #f8b500);
+}
+
+.app.hot {
+  background: linear-gradient(to bottom, #ff9966, #ff5e62);
+}
+
+.app {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background 0.5s ease-in-out;
+  font-family: 'Segoe UI', sans-serif;
+  color: #333;
+}
+
+/* Carte météo */
+.card {
+  background-color: rgba(255, 255, 255, 0.95);
+  padding: 30px;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  width: 90%;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  font-size: 1rem;
+}
+
+button {
+  background-color: #4a90e2;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background-color: #357ab8;
+}
+
+.weather-info img {
+  width: 100px;
+  height: 100px;
+}
+
+.weather-info .temp {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.error {
+  color: red;
+  margin-top: 10px;
+}
