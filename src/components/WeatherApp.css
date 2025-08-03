@@ -61,11 +61,11 @@ button:hover {
   height: 100px;
 }
 
-/* .weather-info .temp {
+.weather-info .temp {
   font-size: 2rem;
   font-weight: bold;
   margin: 10px 0;
-} */
+}
 
 .error {
   color: red;
